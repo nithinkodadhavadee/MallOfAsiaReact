@@ -1,0 +1,74 @@
+.more hr {
+  border-top: 4px solid #d2ab66;
+  width: 53%;
+  margin: 40px 0 0 40px;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.more h2 {
+  font-size: 70px;
+  font-family: Didot;
+  color: #dbb85c;
+  text-align: center;
+}
+
+.more img {
+  height: 600px;
+  object-fit: cover;
+}
+
+.more .text {
+  background-image: url("../../assets/Brands/black-shade.png");
+  height: 600px;
+  position: relative;
+  margin-top: -600px;
+}
+
+.more .text h3 {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  color: #d2ab66;
+  font-family: Didot;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .more h2 {
+    font-size: 35px;
+    width: 100%;
+  }
+  .more img {
+    height: 400px;
+  }
+  .more .text {
+    height: 400px;
+    margin-top: -400px;
+    margin-bottom: 15px;
+  }
+  .more .text h3 {
+    bottom: 15px;
+    font-size: 25px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

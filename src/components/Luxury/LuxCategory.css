@@ -1,0 +1,115 @@
+.lux_category .main_img {
+  height: 750px;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.lux_category .card img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.lux_category .category-text {
+  position: absolute;
+  margin-top: -650px;
+  justify-content: left;
+}
+
+.lux_category h3 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Didot;
+  color: #000;
+  border-radius: 50px 0 0 50px;
+  width: 340px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lux_category button a {
+  text-decoration: none;
+}
+
+.lux_category .row button {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  font-family: Avenir;
+  margin: 20px auto;
+  display: flex;
+  border-bottom: 4px solid #dbb85c !important;
+  border: none;
+  background: none;
+}
+.lux_category .card3 {
+  padding: 30px 0 0px !important;
+}
+.lux_category .card3 .card h3 {
+  display: none;
+}
+.lux_category .card3 .text {
+  text-align: center;
+}
+.lux_category .card3 svg {
+  display: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .lux_category .main_img {
+    height: 280px;
+  }
+  .lux_category h3 {
+    width: 220px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 18px !important;
+  }
+  .lux_category .card {
+    height: 170px;
+    margin-bottom: 0px;
+  }
+  .lux_category .card img {
+    height: 45px;
+    width: 130px;
+    object-fit: contain;
+  }
+  .lux_category button {
+    font-size: 17px;
+  }
+  .lux_category .view-btn button {
+    font-size: 18px;
+    width: 260px;
+    height: 55px;
+    margin: 25px auto 0;
+  }
+  .lux_category .row-reverse {
+    flex-direction: column-reverse;
+  }
+  .lux_category h2 {
+    font-size: 35px;
+    margin: 0 auto;
+  }
+  .lux_category .card3 {
+    padding: 15px 0 0px !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

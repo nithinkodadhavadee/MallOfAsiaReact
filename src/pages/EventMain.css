@@ -1,0 +1,29 @@
+.event_main .event_card h2,
+.event_main .past_events h2,
+.event_details h2{
+    font-size: 70px;
+    font-family: Didot;
+    color: #dbb85c;
+    text-align: center;
+    width: 100%;
+}
+
+.event_details .form1 h2{
+    text-align: left;
+}
+
+.event_details .event_card h2{
+    display: none;
+}
+
+.event_details .event_card {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    padding-bottom: 40px;
+}
+
+.event_main .past_events img{
+    height: 300px;
+    object-fit: cover;
+}
+

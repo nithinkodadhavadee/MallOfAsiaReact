@@ -1,0 +1,100 @@
+.offers hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 50px 0 0 40px;
+  opacity: 1;
+}
+
+.offers h2 {
+  color: #dbb85c;
+  text-align: center;
+}
+
+.offers .owl-dots {
+  display: none;
+}
+
+.offers .owl-nav{
+  margin-top: 0;
+}
+
+.offers .owl-carousel .owl-nav button.owl-prev,
+.offers .owl-carousel .owl-nav button.owl-next {
+  /* border: 2px solid #d2ab66; */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.offers .owl-carousel .owl-nav button.owl-prev span {
+  position: absolute;
+  left: -50px;
+  font-size: 90px;
+  margin-top: -350px;
+  color: #d2ab66;
+}
+
+.offers .owl-carousel .owl-nav button.owl-next span {
+  position: absolute;
+  right: -50px;
+  font-size: 90px;
+  margin-top: -350px;
+  color: #d2ab66;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .offers img {
+    height: 300px;
+  }
+  .offers .text {
+    padding: 20px 10px;
+  }
+  .offers .card {
+    height: 440px;
+  }
+  .offers .view-btn button {
+    font-size: 18px;
+    /* width: 280px; */
+    height: 50px;
+    margin: 0px auto 0px;
+  }
+  .offers h2 {
+    font-size: 35px;
+    margin: 0 auto;
+  }
+  .offers h3 {
+    font-size: 24px;
+  }
+  .offers .owl-carousel .owl-nav button.owl-prev span {
+    left: 5px;
+    font-size: 65px;
+    margin-top: -400px;
+  }
+  .offers .owl-carousel .owl-nav button.owl-next span{
+    right: 5px;
+    font-size: 65px;
+    margin-top: -400px;
+  }
+  .offers .owl-carousel .owl-nav{
+    position: absolute;
+    width: 100%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

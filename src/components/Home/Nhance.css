@@ -1,0 +1,52 @@
+.nhance hr {
+  border-top: 4px solid #d2ab66;
+  width: 100%;
+  margin: 40px 0 0 40px;
+  opacity: 1;
+}
+
+.nhance h2 {
+  font-size: 70px;
+  font-family: Didot;
+  color: #dbb85c;
+  text-align: center;
+}
+
+.nhance img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.nhance .text {
+  height: 500px;
+  position: absolute;
+  margin-top: -350px;
+  width:100%;
+  padding-left: 300px;
+  text-align: center;
+  justify-content: center;
+  left:0;
+}
+
+.nhance .text p {
+  font-size: 24px;
+  color: #fff;
+  line-height: 35px;
+  text-align: center;
+}
+
+.nhance button {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  font-family: Didot;
+  display: flex;
+  border: 2px solid #dbb85c;
+  width: 200px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+  margin: 40px auto;
+  text-align: center;
+}

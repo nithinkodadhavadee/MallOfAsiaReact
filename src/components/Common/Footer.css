@@ -1,0 +1,109 @@
+.footer {
+  background-color: #22242a;
+  border-top: 13px solid #d2ab66;
+  border-bottom: 40px solid #d2ab66;
+}
+
+.footer p {
+  font-size: 20px !important;
+  color: #fff;
+  margin-bottom: 20px !important;
+  font-family: Avenir;
+  opacity: 0.8;
+}
+
+.footer p:hover {
+  color: #d2ab66;
+}
+
+.footer label {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.footer hr {
+  border-top: 3px dashed #d2ab66;
+}
+
+.footer .subscribe {
+  padding: 40px 0 0;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.footer input {
+  width: 100%;
+  margin-left: 40px;
+  height: 45px;
+  border-radius: 0;
+  width: 270px;
+}
+
+.footer button {
+  background-color: #d2ab66;
+  border:1px solid #d2ab66;
+  height: 45px;
+  padding: 0 15px;
+}
+
+.footer h3 {
+  font-size: 22px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .footer img {
+    margin: 0 auto;
+    height: 70px;
+    object-fit: contain;
+  }
+  .footer p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .footer .subscribe {
+    padding: 10px 0 0;
+    width: auto;
+  }
+  .footer input {
+    margin-left: 0;
+    height: 35px;
+    width: 100%;
+  }
+  .footer h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .footer button {
+    height: 35px;
+    padding: 0 10px;
+    color:#fff;
+    font-size: 20px;
+  }
+  .footer {
+    border-bottom: 20px solid #d2ab66;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

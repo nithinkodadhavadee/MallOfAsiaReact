@@ -1,0 +1,72 @@
+.card4 .card{
+    border:none
+}
+
+.card4 .card h5{
+    position: absolute;
+    right:0;
+    font-size: 20px;
+    padding:10px 20px;
+    background-color: #fff;
+    border:1px solid #AB7F16;
+}
+
+.card4 .card .text{
+    border:1px solid #AB7F16;
+    height:160px;
+    margin-top: -50px;
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+}
+
+.card4 .card h3{
+    font-size:25px;
+    font-family: Didot;
+    font-weight: 600;
+}
+
+.card4 .card svg{
+    color: #AB7F16;
+}
+
+.card4 .card h4{
+    font-size: 20px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .card4 .card h5 {
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    .card4 .card .text {
+        height: 110px;
+        margin-top: -90px;
+    }
+    .card4 .card h3 {
+        font-size: 18px;
+    }
+    .card4 .card h4 {
+        font-size: 15px;
+    }
+    .card4 .card{
+        margin-bottom: 20px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

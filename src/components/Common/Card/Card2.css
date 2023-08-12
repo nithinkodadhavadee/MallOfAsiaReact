@@ -1,0 +1,26 @@
+.card2 .card {
+  border: none;
+}
+
+.card2 .text {
+  position: absolute;
+  bottom: 0;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card2 .text h3 {
+  font-size: 20px;
+  font-family: Avenir;
+  color: #fff;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.card2 .text p {
+  font-size: 20px !important;
+  font-family: Avenir;
+  color: #fff;
+  opacity: 0.8;
+  margin-top: 5px;
+}

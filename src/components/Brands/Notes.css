@@ -1,0 +1,96 @@
+.notes h2 {
+  font-size: 50px;
+  color: #d2ab66;
+  font-family: Didot;
+  font-weight: 600;
+}
+
+.notes hr {
+  border-top: 4px solid #d2ab66;
+  width: 56%;
+  margin: 40px 0 0 40px;
+  opacity: 1;
+}
+
+.notes img{
+    height: 400px;
+    object-fit: cover;
+}
+
+.notes .text{
+    height: 400px;
+    align-items: center;
+    display: flex;
+}
+
+.notes h3{
+    font-size: 30px;
+    line-height: 40px;
+    color:#222222;
+    font-weight: 600;
+}
+
+.notes span{
+    margin: 0 10px;
+}
+
+.notes label{
+    font-size:17px;
+    color:#777777;
+}
+
+.notes p{
+    font-size: 22px;
+    line-height: 40px;
+    color:#5B5B5B;
+}
+
+.notes p a{
+    color: #d2ab66;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .notes h2 {
+        font-size: 35px;
+    }
+    .notes img {
+        height: 300px;
+    }
+    .notes .text {
+        position: relative;
+        height: fit-content;
+        padding-top: 15px;
+    }
+    .notes h3 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+    .notes p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .notes p a{
+        font-size: 15px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

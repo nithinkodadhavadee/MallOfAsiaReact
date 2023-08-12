@@ -1,0 +1,136 @@
+.tab_banner #tabs button {
+  padding: 0;
+  width: 100%;
+}
+
+.tab_banner #tabs menu img {
+  height: 560px;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+}
+
+.tab_banner #tabs menu .overlay {
+  height: 560px;
+  width: 25%;
+  background-color: #1e1e1e;
+  position: absolute;
+  top: 120px;
+  display: none;
+}
+
+.tab_banner #tabs menu .text {
+  position: absolute;
+  background-color: #1e1e1e;
+  top: 350px;
+  /* left:0; */
+  width: 25%;
+  height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.tab_banner #tabs ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.tab_banner #tabs ul li {
+  list-style-type: none;
+}
+
+.tab_banner #tabs menu .text h1 {
+  font-size: 35px;
+  color: #fff;
+  font-family: Didot;
+  margin-bottom: 0;
+  padding: 15px;
+}
+
+.tab_banner #tabs button.active .overlay {
+  display: block;
+}
+
+.tab_banner #tabs button.active h1 {
+  border: 2px solid #d2ab66;
+}
+
+.tab_banner #tabs menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin: 0px;
+  padding-left: 0;
+}
+
+.tab_banner #tabs button {
+  font-size: 20px;
+  color: #949494;
+  display: flex;
+  font-family: Avenir;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+}
+
+.tab_banner #tabs button:hover {
+  color: #ab7f16;
+}
+
+.tab_banner #tabs button.active .dot {
+  display: block !important;
+}
+
+.tab_banner #tab-content {
+  background-color: #fff;
+  /* padding: 50px 0 0; */
+}
+
+.tab_banner .dot {
+  width: 12px;
+  height: 12px;
+  background-color: #ab7f16;
+  border-radius: 50%;
+  margin: 10px 10px 0 0;
+  display: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .tab_banner #tabs menu img {
+    height: 260px;
+  }
+  .tab_banner #tabs menu .overlay {
+    display: none !important;
+  }
+  .tab_banner #tabs menu .text {
+    top: 460px;
+    width: 93%;
+    height: 55px;
+    position: unset;
+    margin-left: -96%;
+    margin-top: 55%;
+  }
+  .tab_banner #tabs menu .text h1 {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

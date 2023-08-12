@@ -1,0 +1,149 @@
+.lux_events #tabs menu {
+  position: absolute;
+  margin-left: 645px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 230px;
+  width: 600px;
+}
+
+.lux_events #tabs button {
+  font-size: 18px;
+  color: #949494;
+  display: flex;
+  font-family: Avenir;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+}
+
+.lux_events #tabs button:hover {
+  color: #ab7f16;
+}
+
+.lux_events #tabs button.active .dot {
+  display: block !important;
+}
+
+.lux_events #tab-content {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.lux_events .dot {
+  width: 12px;
+  height: 12px;
+  background-color: #ab7f16;
+  border-radius: 50%;
+  margin: 10px 10px 0 0;
+  display: none;
+}
+
+.lux_events h2 {
+  font-size: 50px;
+  font-family: Didot;
+  color: #dbb85c;
+  margin: 10px 30px;
+}
+
+.lux_events video {
+  height: 500px !important;
+  object-fit: cover;
+}
+
+.lux_events .text {
+  padding: 30px;
+}
+
+.lux_events h3 {
+  font-size: 23px;
+  font-weight: 600;
+  font-family: Avenir;
+}
+
+.lux_events p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.lux_events p span {
+  font-weight: 600;
+}
+
+.lux_events .view-btn button {
+  font-size: 23px;
+  font-weight: 600;
+  color: #000;
+  font-family: Didot;
+  display: flex;
+  border: 4px solid #dbb85c;
+  width: 210px;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto 30px;
+  letter-spacing: 1px;
+  background-color: #fff;
+}
+
+.lux_events ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .lux_events #tabs menu {
+    margin: -50px 0px 30px;
+    display: block;
+    column-count: 3;
+    padding-left: 0;
+  }
+  .lux_events .dot {
+    width: 7px;
+    height: 7px;
+    margin: 6px 7px 0 0;
+  }
+  .lux_events #tabs button {
+    font-size: 13px;
+  }
+  .lux_events #tab-content {
+    padding: 10px;
+  }
+  .lux_events .text {
+    padding: 0px 0px 0px;
+  }
+  .lux_events h2 {
+    font-size: 35px;
+    margin: 20px 0px;
+  }
+  .lux_events h3 {
+    font-size: 20px !important;
+  }
+  .lux_events p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .lux_events .view-btn button {
+    font-size: 18px;
+    width: 145px;
+    height: 50px;
+    margin: 20px auto 0px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

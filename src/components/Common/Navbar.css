@@ -1,0 +1,110 @@
+@font-face {
+  font-family: Avenir;
+  src: url(../../assets/AvenirNext.otf);
+}
+
+.navbar {
+  /* background-color: rgba(0,0,0,0.4) !important; */
+  background-color: transparent !important;
+  position: absolute !important;
+  width: 100%;
+  top: 0;
+  height: 130px;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar-brand{
+  z-index: 1;
+}
+.navbar-expand-lg .navbar-collapse{
+  z-index: 1;
+}
+
+.navbar .navbar-brand img {
+  width: 245px;
+  height: 55px;
+  object-fit: contain;
+}
+.nav-link {
+  color: #f9f7f2 !important;
+  font-size: 15px;
+  margin: 0 20px;
+  font-family: "Avenir";
+  /* font-weight: 600; */
+  letter-spacing: 1px;
+}
+
+.nav-link:hover{
+    color:#C7982E !important;
+}
+
+.search-wish-bag a {
+  color: #f9f7f2 !important;
+  font-family: "Avenir";
+}
+
+.search-wish-bag {
+  display: grid !important;
+  position: relative !important;
+  background: none !important;
+  width: auto;
+  height: auto;
+}
+
+.search-wish-bag .navbar-brand a {
+  margin: 10px 17px;
+  font-size: 15px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .lhYbII.toggled .fRhOkl{
+    display: none;
+  }
+  .lhYbII {
+    position: absolute !important;
+    right: 0;
+    height: 900px !important;
+  }
+  .lhYbII.toggled{
+    right:0;
+    position: absolute;
+    background-color: transparent;
+  }
+  .logo img{
+    position: absolute;
+    width:200px;
+    height: 80px;
+    object-fit: contain;
+    z-index: 10;
+    padding-left: 20px;
+  }
+  .head-text img{
+    width: 120px;
+  }
+  .navbar-mobile{
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    z-index: 1000;
+    width: 100%;
+    height: 80px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,83 @@
+.form1{
+    background-color: #22242A;
+}
+
+.form1 h2{
+    color:#D2AB66;
+    font-size: 65px;
+    font-family: Didot;
+}
+
+.form1 p{
+    font-size: 40px;
+    color:#D2AB66;
+    font-family: Avenir;
+}
+
+.form1 input{
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid #D2AB66;
+}
+
+.form1 input::placeholder{
+    font-family: Didot;
+}
+
+.form1 textarea {
+    padding: 20px;
+    border-radius: 0;
+    border: none;
+}
+
+.form1 a{
+    text-align: center;
+}
+
+.form1 .submit_btn{
+    width: 35%;
+    margin-top: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #D2AB66;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Didot;
+    margin-top: 20px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .form1 h2 {
+        font-size: 35px;
+    }
+    .form1 p {
+        font-size: 18px;
+    }
+    .form1 input::placeholder{
+        font-size: 13px;
+    }
+    .form1 .submit_btn {
+        height: 35px;
+        font-size: 15px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

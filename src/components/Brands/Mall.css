@@ -1,0 +1,127 @@
+.mall hr {
+  border-top: 4px solid #d2ab66;
+  width: 25%;
+  margin: 40px 0 0 40px;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.mall {
+  background-color: #f9f7f2;
+}
+
+.mall #tabs menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin: 40px 30px;
+}
+
+.mall #tabs button {
+  font-size: 20px;
+  color: #949494;
+  display: flex;
+  font-family: Avenir;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+}
+
+.mall #tabs button:hover {
+  color: #ab7f16;
+}
+
+.mall #tabs button.active .dot {
+  display: block !important;
+}
+
+.mall #tab-content {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.mall .dot {
+  width: 12px;
+  height: 12px;
+  background-color: #ab7f16;
+  border-radius: 50%;
+  margin: 10px 10px 0 0;
+  display: none;
+}
+
+.mall h2 {
+  font-size: 50px;
+  font-family: Didot;
+  color: #dbb85c;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.mall img {
+  height: 400px !important;
+  object-fit: cover;
+}
+
+.mall ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .mall #tabs menu {
+    margin: 0px 0px 20px;
+    display: block;
+    column-count: 3;
+    padding-left: 0;
+  }
+  .mall .dot {
+    width: 8px;
+    height: 7px;
+    margin: 6px 7px 0 0;
+  }
+  .mall #tabs button {
+    font-size: 10px;
+  }
+  .mall #tab-content {
+    padding: 0px;
+  }
+  .mall .text {
+    padding: 15px 0px 0px;
+  }
+  .mall h2 {
+    font-size: 30px;
+  }
+  .mall h3 {
+    font-size: 20px !important;
+  }
+  .mall p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .mall .view-btn button {
+    font-size: 18px;
+    width: 145px;
+    height: 50px;
+    margin: 20px auto 0px;
+  }
+  .mall img {
+    height: 170px !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

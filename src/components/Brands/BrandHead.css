@@ -1,0 +1,131 @@
+.brand_detail_head {
+}
+
+.brand_detail_head h2 {
+  color: #000;
+  font-size: 54px;
+  font-family: Didot;
+  font-weight: 600;
+}
+
+.brand_detail_head h4 {
+  font-size: 21px;
+  font-family: Avenir;
+  color: #5b5b5b;
+  font-weight: 600;
+}
+
+.brand_detail_head span {
+  color: #5b5b5b;
+  margin: -1px 15px;
+}
+
+.brand_detail_head h5 {
+  font-size: 23px;
+  font-family: Avenir;
+  color: #000;
+  border: 3px solid #ab7f16;
+  padding: 10px;
+  width: 280px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.brand_detail_head .logo-card {
+  margin-top: -200px;
+  background-color: transparent;
+  position: relative;
+  z-index: 10;
+}
+
+.brand_detail_head .logo-card img {
+  height: 400px;
+  object-fit: contain;
+}
+
+.brand_detail_head h3 {
+  font-size: 50px;
+  color: #dbb85c;
+  font-family: Didot;
+  font-weight: 600;
+}
+
+.brand_detail_head hr {
+  border-top: 4px solid #d2ab66;
+  width: 56%;
+  margin: 40px 0 0 40px;
+  opacity: 1;
+}
+
+.brand_detail_head h6 {
+  font-size: 26px;
+  font-family: Avenir;
+  color: #5b5b5b;
+  text-align: center;
+  font-weight: 600;
+}
+
+.brand_detail_head p {
+  font-size: 20px;
+  font-family: Avenir;
+  text-align: justify;
+  line-height: 30px;
+  color: #5b5b5b;
+  margin-top: 10px;
+}
+
+.brand_detail_head a p {
+  color: #5b5b5b;
+  text-align: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .brand_detail_head .logo-card img {
+    height: 170px;
+  }
+  .brand_detail_head .logo-card {
+    margin-top: 20px;
+  }
+  .brand_detail_head h4 {
+    font-size: 14px;
+  }
+  .brand_detail_head span {
+    margin: -5px 10px;
+  }
+  .brand_detail_head h5 {
+    font-size: 16px;
+    padding: 8px;
+    width: 185px;
+  }
+  .brand_detail_head h3 {
+    font-size: 25px;
+  }
+  .brand_detail_head p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 0px;
+  }
+  .brand_detail_head h6 {
+    font-size: 18px;
+  }
+  .brand_detail_head h2{
+    font-size: 35px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

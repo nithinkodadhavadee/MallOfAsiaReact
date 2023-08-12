@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+.panache hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 60px 0 0 40px;
+  opacity: 1;
+}
+
+.panache img {
+  height: 700px;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  border-radius: 0 30% 0 0;
+}
+
+.panache-text {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: -130px;
+  background-color: #fff;
+  padding: 30px 40px 40px;
+  text-align: center;
+  border-radius: 20px;
+  z-index: 1;
+  box-shadow: 0 4px 20px 0px #d2ab66;
+}
+
+.panache h2 {
+  color: #dbb85c;
+  z-index: 1;
+}
+
+.panache-text h3 {
+  font-size: 40px;
+  color: #1a1b1e;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.panache-text p {
+  color: #161616;
+}
+
+.panache .carousel-control-prev,
+.panache .carousel-control-next {
+  display: none;
+}
+
+.panache .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .panache {
+    margin-top: 0;
+  }
+  .panache-text {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 20px 10px;
+    border-radius: 0 0 0 20px;
+  }
+  .panache-text h3 {
+    font-size: 24px;
+  }
+  .panache img {
+    height: 320px;
+  }
+  .panache h2 {
+    font-size: 35px;
+    margin: 0px 0 20px;
+  }
+  .panache-text p {
+    text-align: center;
+    font-size: 17px;
+  }
+  .panache-text button {
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

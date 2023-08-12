@@ -1,0 +1,40 @@
+.card1 h4 {
+    font-size: 20px;
+    font-family: Avenir;
+    color: #000;
+    font-weight: 600;
+  }
+  
+  .card1 .card {
+    height: 450px;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 4px 4px 0px #b6b4b4;
+    margin-bottom: 20px;
+  }
+  
+  .card1 img {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card1 .text {
+    padding: 25px;
+  }
+  
+  .card1 h3 {
+    font-size: 23px;
+    font-family: Avenir;
+    color: #dbb85c;
+    margin: 10px 0;
+    font-weight: 600;
+  }
+  
+  .card1 p {
+    font-size: 15px !important;
+    color: #000;
+  }
+  
+  .card1 p span {
+    font-weight: 600;
+  }

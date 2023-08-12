@@ -1,0 +1,99 @@
+
+
+.connect hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 45px 0 0 40px;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.connect {
+  /* background-color: #f9f7f2; */
+}
+
+.connect h2 {
+  white-space: nowrap;
+  margin-right: 20px;
+  color: #dbb85c;
+  text-align: center;
+}
+
+.connect img{
+    height: 580px;
+    object-fit: cover;
+}
+
+.connect .card{
+    border: none;
+    border-radius: 0;
+}
+
+.connect .owl-carousel .owl-nav button.owl-prev,
+.connect .owl-carousel .owl-nav button.owl-next {
+  /* border: 2px solid #d2ab66; */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.connect .owl-carousel .owl-nav button.owl-prev span {
+  position: absolute;
+  left: -50px;
+  font-size: 90px;
+  margin-top: -400px;
+  color: #d2ab66;
+}
+
+.connect .owl-carousel .owl-nav button.owl-next span {
+  position: absolute;
+  right: -50px;
+  font-size: 90px;
+  margin-top: -400px;
+  color: #d2ab66;
+}
+
+.connect .owl-dots{
+    display: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .connect h2{
+    font-size: 35px;
+    margin: 0 auto;
+  }
+  .connect img {
+    height: 350px;
+  }
+  .connect .owl-carousel .owl-nav button.owl-prev span {
+    left: 5px;
+    font-size: 65px;
+    margin-top: -260px;
+  }
+  .connect .owl-carousel .owl-nav button.owl-next span{
+    right: 5px;
+    font-size: 65px;
+    margin-top: -260px;
+  }
+  .connect .owl-carousel .owl-nav{
+    position: absolute;
+    width: 100%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,82 @@
+.luxury .carousel1 .text {
+  background-color: #332503;
+  position: relative;
+  top: -230px;
+  margin: 0 auto;
+  padding: 10px 0 10px;
+  width: 500px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.luxury .carousel1 .text h3 {
+  font-size: 40px;
+  font-family: Didot;
+  color: #fff;
+  background: none;
+  position: relative;
+}
+
+.luxury .carousel1 .text p {
+  font-size: 20px;
+  font-family: Avenir;
+  color: #fff;
+}
+
+.luxury .carousel1 hr,
+.luxury .carousel1 h2,
+.luxury .carousel1 .container {
+  display: none;
+}
+
+.luxury .carousel1 {
+  padding: 0 !important;
+}
+
+.luxury .carousel {
+  height: 840px;
+  margin-top: 0 !important;
+}
+
+.luxury .carousel1 .carousel-indicators {
+  bottom: 55px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .luxury .carousel1 .text {
+    top: -150px;
+    width: 300px;
+    padding: 40px 0 5px;
+  }
+  .luxury .carousel1 .text h3 {
+    font-size: 25px;
+    height: fit-content;
+  }
+  .luxury .carousel1 .text p {
+    font-size: 15px;
+  }
+  .luxury .carousel {
+    height: 360px;
+  }
+  .luxury .carousel1 .carousel-indicators {
+    bottom: 20px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

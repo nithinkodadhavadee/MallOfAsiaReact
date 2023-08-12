@@ -1,0 +1,34 @@
+.event_info h3{
+    font-size: 35px;
+    font-family: Didot;
+    font-weight: 600;
+}
+
+.event_info p{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.event_info ul li{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.event_info .card{
+    width: 75%;
+    margin: 40px auto;
+    border: none;
+    border-radius: 20px;
+    padding: 50px 50px 30px;
+}
+
+.event_info .card img{
+    height: 80px;
+    object-fit: contain;
+}
+
+.event_info .button2 button{
+    border-radius: 50px;
+    font-weight: 700;
+    margin-top: 20px;
+}

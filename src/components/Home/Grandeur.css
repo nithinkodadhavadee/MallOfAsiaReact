@@ -1,0 +1,97 @@
+.grandeur {
+  /* background-color: #f9f7f2; */
+}
+
+.grandeur hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 70px 0 0 30px;
+  opacity: 1;
+}
+
+.grandeur h2 {
+  color: #dbb85c;
+  letter-spacing: 1px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.grandeur h3 {
+  font-size: 53px;
+  color: #1a1b1e;
+  font-family: Avenir;
+  letter-spacing: 4px;
+}
+
+.grandeur p {
+  color: #1a1b1e;
+  line-height: 35px;
+}
+
+.grandeur-text {
+  display: flex;
+  align-items: center;
+  height: 540px;
+}
+
+.grandeur img {
+  height: fit-content;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  width: auto !important;
+}
+
+.carousel-control-next{
+  right:-40px !important;
+}
+
+.carousel-control-prev{
+  left:-40px !important;
+}
+
+.carousel-control-prev-icon{
+  background-image: url('../../../public/img/left-arrow.png') !important;
+}
+
+.carousel-control-next-icon{
+  background-image: url('../../../public/img/right-arrow.png') !important;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .grandeur h2 {
+    font-size: 35px;
+  }
+  .grandeur h3 {
+    font-size: 24px;
+  }
+  .grandeur-text {
+    height: auto;
+  }
+  .grandeur img {
+    height: 250px;
+    margin-bottom: 15px;
+  }
+  .grandeur p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
