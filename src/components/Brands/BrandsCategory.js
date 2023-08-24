@@ -35,7 +35,9 @@ const BrandsCategory = ({ props }) => {
           <div className="row px-md-0 px-2">
             {data.map(item => (
               <div className="col-md-3 col-6 px-md-3 px-1">
-                  <Card3 category={item.category} image={item.image} location={item.email} floor={item.floor}  />
+                <a href={"brand-detail/?module=brands&title="+item.title}>
+                  <Card3 category={item.category} image={item.logo} location={item.email} floor={item.floor}  />
+                </a>
               </div>
             ))}
             <div className="col-md-3 col-6 px-md-3 px-1">

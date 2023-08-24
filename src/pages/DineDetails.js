@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import "./Brands.css";
+import React, { Fragment, useState, useEffect } from "react";
+import axios from 'axios';
 import Header from "../components/Common/Navbar";
 import Sidebar from "../components/Common/NavbarMob";
 import Banner from "../components/Common/Banner";
@@ -16,8 +16,33 @@ import d1 from "../assets/Dine/d1.png";
 import d2 from "../assets/Dine/d2.png";
 import d3 from "../assets/Dine/d3.png";
 import More from "../components/Common/More";
+import DineCategory from "../components/Dine/DineCategory";
 
 const DineDetails = (props) => {
+    
+  let params = new URLSearchParams(window.location.search);
+  let module = params.get('module');
+  let title = params.get('title')
+  console.log("module:", module)
+  console.log("title:", title)
+  console.log("woh din bhi kya din the")
+
+  const [data, setData] = useState([]);
+  const serverURL = "https://moa-admin-backend.onrender.com";
+  useEffect(() => {
+    // Make the API call
+    axios.get(serverURL+'/?module=dine&title='+title)
+      .then(response => {
+        console.log("two days seriously thinking")
+        console.log(response.data)
+        setData(response.data);
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+      });
+  }, []); // Empty dependency array means this effect runs only once, similar to componentDidMount
+
+
   return (
     <Fragment>
       <div className="dine_detail">
@@ -26,19 +51,19 @@ const DineDetails = (props) => {
         <Banner
           title="A selection that leaves you spoilt for choice"
           para="Choose from a massive catalogue of the most well-known brands"
-          image={LaunchBanner}
+          image={data.background}
         />
         <BrandHead
-          title="JAMIE OLIVER’s PIZZA"
-          sub1="Ground Floor"
+          title={data.title}
+          sub1={data.floor}
           sub2="Serves Alcohol"
-          box="RESERVE A TABLE"
-          logo={Dlogo}
-          subtitle="About Jamie Oliver’s Pizza"
-          para="Jamie's Pizzeria is all about fresh ingredients and bold flavours, served up in a buzzing, authentic and family-friendly environment. Jamie’s Pizzeria offers delicious artisan pizzas, garlic bread, appetisers, al Forno dishes and a few tasty extras, all made with superb produce, sourced as locally as possible. Our pizza dough is made fresh on-site, hand stretched, topped with the best ingredients and baked to perfection. Enjoy a range of classic Italian pizzas and local Indian-inspired favourites, all served with your choice of a classic or deep-pan crust. Whether you're looking for a quick and easy lunch, or somewhere to relax with friends and family, Jamie’s Pizzeria is comfortable, convenient and affordable. "
-          t1="97143415590"
-          t2="jamieolivers@gmail.com90"
-          t3="10:00 - 23:00"
+          box={data.category}
+          logo={data.logo}
+          subtitle={"About "+data.title}
+          para={data.about}
+          t1={data.contact}
+          t2={data.email}
+          t3={data.timings}
         />
         <Container>
           <div className="d-flex mt-md-5 mt-3">
@@ -61,7 +86,7 @@ const DineDetails = (props) => {
             <hr />
           </div>
         </Container>
-        <BrandsCategory />
+        <DineCategory />
         {/* <Nhance /> */}
         <Form1
           title="Have any questions about this restaurant?"

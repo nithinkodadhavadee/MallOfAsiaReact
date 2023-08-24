@@ -20,7 +20,7 @@ const BrandHead = ({ id, title, sub1, sub2, subtitle, para, logo, box, t1,t2,t3 
         t3:t3,
       },
     });
-  };
+  };  
   return (
     <Fragment>
       <div className="brand_detail_head pt-md-5">

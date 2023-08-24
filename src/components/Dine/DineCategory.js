@@ -32,7 +32,10 @@ const DineCategory = ({ props }) => {
           <div className="row">
             {data.map(item => (
              <div className="col-md-4">
-                <Card4 category={item.category} title={item.title} image={item.image} location="The Abcd Zone" floor={item.floor}  />
+                <a href={"dine-detail/?module=brands&title="+item.title}>
+                  <Card4 category={item.category} title={item.title} image={item.image} location="The Abcd Zone" floor={item.floor}  />
+                </a>
+                
             </div>
             ))}
             <div className="col-md-4">
